@@ -1,0 +1,9 @@
+Greeland 540 106
+Rabat 600 400
+Brazil 433 523
+newYork 331 315
+Italy 701 357
+Australia 1000 610
+Russia 972 260
+Canada 300 193
+Zambia 706 519

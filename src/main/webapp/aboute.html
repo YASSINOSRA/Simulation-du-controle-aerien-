@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- divinectorweb.com -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aboute</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylehome.css">
+</head>
+<body>
+    <header>
+        <video src="3.mp4" class="vid-bg" autoplay loop muted></video> 
+
+        <div class="nav-area">
+            <div class="logo">SCA</div>
+
+            <ul class="menu-area">
+                <li><a href="home.jsp">Home</a></li>
+                <li><a href="#">About</a></li>
+                
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="welcome-text">
+            
+            La simulation de contrôle aérien utilisant l'algorithme de Dijkstra est un projet informatique qui vise <br>
+            à simuler le processus de contrôle du trafic aérien en utilisant l'algorithme de plus court chemin de <br>
+            Dijkstra pour trouver les itinéraires les plus efficaces entre les différents avions et les aéroports.<br>
+
+L'algorithme de Dijkstra est largement utilisé pour résoudre les problèmes de routage dans les réseaux <br>
+et les graphes pondérés. Dans le contexte de la simulation de contrôle aérien, les aéroports sont représentés<br> 
+comme des nœuds dans un graphe, et les routes entre les aéroports sont représentées comme des arêtes avec des<br>
+
+ poids représentant la distance ou le temps de vol.<br>
+
+Voici comment fonctionnerait une simulation de contrôle aérien utilisant l'algorithme de Dijkstra en Java :<br>
+
+Création du graphe : Les aéroports sont représentés comme des nœuds et les routes entre les aéroports sont représentées <br>
+comme des arêtes avec des poids. Vous pouvez utiliser des structures de données telles que des listes d'adjacence ou des<br>
+ matrices d'adjacence pour représenter le graphe. <br>
+
+Initialisation des données : Chaque nœud (aéroport) est associé à des informations telles que son identifiant, <br>
+ sa position géographique, les avions qui y sont actuellement présents, etc. Les arêtes (routes) sont associées <br>
+ à des informations telles que la distance, le temps de vol, les restrictions de vol, etc.<br>
+
+Planification des vols : Les vols sont générés avec des informations sur l'aéroport de départ,<br>
+ l'aéroport de destination, l'heure de départ, etc. Ces informations sont utilisées pour <br>
+  calculer les itinéraires les plus courts en utilisant l'algorithme de Dijkstra.<br>
+
+Exécution de l'algorithme de Dijkstra : L'algorithme de Dijkstra est appliqué pour<br>
+ calculer les plus courts chemins à partir de l'aéroport de départ vers tous les autres <br>
+  aéroports du réseau. Cela permet de déterminer l'itinéraire optimal pour chaque vol. <br>
+
+Contrôle du trafic aérien : Une fois que les itinéraires optimaux sont calculés, <br>
+ la simulation simule le déplacement des avions en fonction de leur vitesse,  <br>
+ de leur altitude, des restrictions de vol, etc. Le contrôleur aérien peut prendre des décisions en temps réel pour <br>
+  éviter les collisions et gérer le trafic aérien de manière sécurisée et efficace. <br>
+
+Affichage des résultats : Les résultats de la simulation, tels que les itinéraires des vols, <br>
+les temps de vol, les retards éventuels, peuvent être affichés sur une interface utilisateur
+ graphique (GUI) pour visualiser le déroulement du contrôle aérien.
+
+
+
+
+            
+        </div>
+    </header>  
+</body>
+</html>
